@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="card">
+    <article class="card-description">
+      <section class="main-img-container">
+        <img class="card-main-img" src="./assets/images/image-equilibrium.jpg" alt="Equilibrium">
+      </section>
+      <section class="card-title">
+        <h1 class="text-link"><a href="#">Equilibrium #3429</a></h1>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+      </section>
+      <section class="card-price">
+        <span class="card-price-eth">
+          <img src="./assets/images/icon-ethereum.svg" alt="Ethereum">
+          <data value="0.041">0.041 ETH</data>
+        </span>
+        <span class="card-price-days">
+          <img src="./assets/images/icon-clock.svg" alt="Clock">
+          <data value="3">3 days left</data>
+        </span>
+      </section>
+      <hr>
+    </article>
+    <address class="card-creator">
+      <img src="./assets/images/image-avatar.png" alt="Avatar">
+      <p>Creation of <a class="creator-link" rel="author" href="#">Jules Wyvern</a></p>
+    </address>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
